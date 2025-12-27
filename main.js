@@ -15,4 +15,4 @@ alert(a);
 var s = +prompt();
 var ss = +prompt();
 var sss = +prompt();
-alert("ваше средне арефметичуское число "+s+ss+sss/3);
+alert("ваше средне арефметичуское число "+(s+ss+sss)/3);
