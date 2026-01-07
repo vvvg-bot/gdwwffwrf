@@ -1,18 +1,44 @@
-var kkk = prompt("Ваше имя ");
-console.log(kkk);
-var kk = +prompt("Сколько вам лет ");
-console.log(kk);
-var kdkk = +prompt("1+1=");
-console.log("Пример 1+1=2  ваш ответ"+(1+1),kdkk);
-var kksk = +prompt("2-1=");
-console.log("Пример 2-1=1  ваш ответ" +(2-1),kksk);
-var kkdd = +prompt("10*2=");
-console.log("Пример 10*2=20  ваш ответ" +10*2,kkdd);    
-var kkddd = +prompt("20/10= ");
-console.log("Пример 20/10=2  ваш ответ"+20/10,kkddd);
-var a = "введите три числа ";
-alert(a);
-var s = +prompt();
-var ss = +prompt();
-var sss = +prompt();
-alert("ваше средне арефметичуское число "+(s+ss+sss)/3);
+let p = +prompt("Введите число");
+for (let i = 1 ;i <= p ;i++){
+    if ( i == 1 )  {
+        
+        console.log(i+" banana" );
+   
+
+    }
+    else  {
+           console.log(i+" bananas  ");
+
+     
+       }
+}
+
+
+let n = +prompt("Введите число");
+let sum = 0;
+
+for (let i = 2; i <= n; i++) {
+  if (i % 2 === 0) {
+    sum += i;
+  }
+}
+
+console.log("Сумма: " + (sum-n))
+
+
+
+
+let nn = +prompt("Введите число");
+ let sun = +prompt()
+
+for (let i = 2; i <= sun; i++) {
+
+    
+
+    nn*=sun 
+
+
+
+}
+
+console.log("Сумма: " + nn)
