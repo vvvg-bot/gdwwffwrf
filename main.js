@@ -12,33 +12,30 @@ for (let i = 1 ;i <= p ;i++){
      
        }
 }
-
-
 let n = +prompt("Введите число");
 let sum = 0;
 
-for (let i = 2; i <= n; i++) {
-  if (i % 2 === 0) {
-    sum += i;
-  }
+for (let i = 0; i <= n; i++) {
+    if (i % 2 == 0) {
+        sum += i;
+    }
 }
 
-console.log("Сумма: " + (sum-n))
-
-
+console.log("Сумма: " + sum)
 
 
 let nn = +prompt("Введите число");
- let sun = +prompt()
+let sun = +prompt('степень')
+let summ;
 
-for (let i = 2; i <= sun; i++) {
+for (let i = 0; i <= sun; i++) {
 
-    
 
-    nn*=sun 
+
+    summ = nn ** sun
 
 
 
 }
 
-console.log("Сумма: " + nn)
+console.log("Сумма: " + summ)
